@@ -18,8 +18,8 @@
 - [ ] Section 4: Pytest Overview
     - [X] 8. Pytest Overview
     - [X] 9. Test Discovery
-    - [ ] 10. XUnit Style Setup and Teardown
-    - [ ] 11. Test Fixtures
+    - [X] 10. XUnit Style Setup and Teardown
+    - [X] 11. Test Fixtures
     - [ ] 12. Assert Statements and Exceptions
     - [ ] 13. PyTest Command Line Arguments
 
