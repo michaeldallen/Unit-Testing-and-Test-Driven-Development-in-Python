@@ -20,7 +20,7 @@
     - [X] 9. Test Discovery
     - [X] 10. XUnit Style Setup and Teardown
     - [X] 11. Test Fixtures
-    - [ ] 12. Assert Statements and Exceptions
-    - [ ] 13. PyTest Command Line Arguments
+    - [X] 12. Assert Statements and Exceptions
+    - [X] 13. PyTest Command Line Arguments
 
 
