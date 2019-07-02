@@ -24,12 +24,12 @@
     - [X] 13. PyTest Command Line Arguments
 
 
-- [ ] Section 5: The Supermarket Checkout Kata
-    - [ ] 14. Overview
-    - [ ] 15. Setup and 1st Test Case
-    - [ ] 16. Add Items, Add Item Prices, and Calculate Current Total
-    - [ ] 17. Add Multiple Items and Calculate Total 
-    - [ ] 18. Add and Apply Discounts
-    - [ ] 19. Throw Exception when Adding an Item with No Price
-    - [ ] Assignment 2: Implement the Supermarket Checkout Kata While Following Along with the Lecture
+- [X] Section 5: The Supermarket Checkout Kata
+    - [X] 14. Overview
+    - [X] 15. Setup and 1st Test Case
+    - [X] 16. Add Items, Add Item Prices, and Calculate Current Total
+    - [X] 17. Add Multiple Items and Calculate Total 
+    - [X] 18. Add and Apply Discounts
+    - [X] 19. Throw Exception when Adding an Item with No Price
+    - [X] Assignment 2: Implement the Supermarket Checkout Kata While Following Along with the Lecture
 
