@@ -15,7 +15,7 @@
     - [ ] 7. Setting up Pytest in Eclipse PyDev
     - [X] Assignment 1: Setup your development environment and do the FizzBuzz Kata
 
-- [ ] Section 4: Pytest Overview
+- [X] Section 4: Pytest Overview
     - [X] 8. Pytest Overview
     - [X] 9. Test Discovery
     - [X] 10. XUnit Style Setup and Teardown
@@ -23,4 +23,13 @@
     - [X] 12. Assert Statements and Exceptions
     - [X] 13. PyTest Command Line Arguments
 
+
+- [ ] Section 5: The Supermarket Checkout Kata
+    - [ ] 14. Overview
+    - [ ] 15. Setup and 1st Test Case
+    - [ ] 16. Add Items, Add Item Prices, and Calculate Current Total
+    - [ ] 17. Add Multiple Items and Calculate Total 
+    - [ ] 18. Add and Apply Discounts
+    - [ ] 19. Throw Exception when Adding an Item with No Price
+    - [ ] Assignment 2: Implement the Supermarket Checkout Kata While Following Along with the Lecture
 
