@@ -1,15 +1,19 @@
 IAM  := tdd
-ACT  := venv.${IAM}/bin/activate
-VENV := . ${ACT} &&
+VENV := venv.${IAM}/bin/activate
+ACT  := . ${VENV} &&
 
-venv.${IAM} : venv.${IAM}/bin/activate requirements.txt
-	${VENV} pip install --requirement requirements.txt
+venv.${IAM} : ${VENV} requirements.txt
 	touch $@
 
-${ACT} :
+${VENV} :
 	python3 -m venv venv.${IAM}
-	${VENV} pip install --upgrade pip
+	${ACT} pip install --upgrade pip
+	${ACT} pip install --requirement requirements.txt
+
+test : ${VENV}
+	${ACT} pytest
 
 clean : 
 	rm -rfv venv.${IAM}
+	find * -name '*~' | sort | xargs -L 1 rm -v
 
