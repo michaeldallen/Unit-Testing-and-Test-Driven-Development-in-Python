@@ -33,3 +33,5 @@
     - [X] 19. Throw Exception when Adding an Item with No Price
     - [X] Assignment 2: Implement the Supermarket Checkout Kata While Following Along with the Lecture
 
+
+- [ ] Section 6.
