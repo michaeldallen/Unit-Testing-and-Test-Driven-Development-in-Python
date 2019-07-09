@@ -34,4 +34,13 @@
     - [X] Assignment 2: Implement the Supermarket Checkout Kata While Following Along with the Lecture
 
 
-- [ ] Section 6.
+- [ ] Section 6. Test Doubles
+    - [X] 20. Overview of Test Doubles, unittest.mock, and monkeypatch
+    - [ ] 21. unittest.mock Example
+    - [ ] 22. Quiz 2: Test Doubles Quiz
+    - [ ] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
+
+- [ ] Section 7. TDD Best Practices
+
+- [ ] Section 8. Conculusion
+
