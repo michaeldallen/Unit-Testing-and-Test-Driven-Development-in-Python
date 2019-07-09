@@ -35,4 +35,3 @@
 
 
 - [ ] Section 6.
-Tue Jul  9 09:01:56 EDT 2019
