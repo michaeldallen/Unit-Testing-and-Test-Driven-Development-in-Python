@@ -7,13 +7,13 @@ venv.${IAM} : ${VENV} requirements.txt
 
 ${VENV} :
 	python3 -m venv venv.${IAM}
-	${ACT} pip install --upgrade pip
-	${ACT} pip install --requirement requirements.txt
+	${ACT} python3 venv.${IAM}/bin/pip install --upgrade pip
+	${ACT} python3 venv.${IAM}/bin/pip install --requirement requirements.txt
 
 test : ${VENV}
 	${ACT} pytest
 
-clean : 
+clean :
 	rm -rfv venv.${IAM}
-	find * -name '*~' | sort | xargs -L 1 rm -v
+	find * -name '*~' | sort | while read t ; do rm -v "${t}" ; done
 
