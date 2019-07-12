@@ -14,7 +14,11 @@
 
 @todo: exception is thrown for item added without a price
 
-@todo: read prices from file
+@todo: can open json file
+
+@todo: can ingest contents of json file into dictionary
+
+@todo: can dump contents of dictionary to json
 
 @todo: test case to generate an exception if there was an error reading a line from the file
 
