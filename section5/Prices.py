@@ -12,16 +12,17 @@ class Prices:
         with open(prices_path, "r") as prices_file:
             self.prices = json.load(prices_file)
 
-        s = json.dumps(self.prices)
+        if len(self.prices) == 0:
+            raise Exception("no prices in '{}'".format(prices_path))
 
 
     def __iter__(self):
 
-        s = json.dumps(self.prices)
-        for s2 in self.prices:
-            yield s2, self.prices[s2]
+        for s in self.prices:
+            yield s, self.prices[s]
 
 
     def dump(self):
         for foo in self:
             print("  {}".format(foo))
+
