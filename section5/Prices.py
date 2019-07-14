@@ -12,6 +12,16 @@ class Prices:
         with open(prices_path, "r") as prices_file:
             self.prices = json.load(prices_file)
 
-        print("\ndump: {}".format(json.dumps(self.prices)))
+        s = json.dumps(self.prices)
 
-    
+
+    def __iter__(self):
+
+        s = json.dumps(self.prices)
+        for s2 in self.prices:
+            yield s2, self.prices[s2]
+
+
+    def dump(self):
+        for foo in self:
+            print("  {}".format(foo))
