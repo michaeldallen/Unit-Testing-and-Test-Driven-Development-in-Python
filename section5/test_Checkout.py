@@ -4,10 +4,8 @@ from unittest.mock import MagicMock
 import json
 import pytest
 
-
 @pytest.fixture()
-def checkout(monkeypatch):
-
+def prices(monkeypatch):
     mock_json_load = MagicMock(return_value = json.loads('{"a": 1, "b": 2, "d": 4}'))
     monkeypatch.setattr("json.load", mock_json_load)
 
@@ -17,8 +15,14 @@ def checkout(monkeypatch):
     mock_exists = MagicMock(return_value=True)
     monkeypatch.setattr("os.path.exists", mock_exists)
 
-    checkout = Checkout()
     prices = Prices("prices.json")
+    return prices
+
+
+@pytest.fixture()
+def checkout(prices):
+
+    checkout = Checkout()
     for item, price in prices:
         checkout.addItemPrice(item, price)
     return checkout
