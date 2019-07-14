@@ -9,10 +9,10 @@ class Prices:
         if not os.path.exists(prices_path):
             raise Exception("bad path")
 
-        prices_file = open(prices_path, "r")
-        self.prices = json.load(prices_file)
-        data_string = json.dumps(self.prices)
-        print("dump: {}".format(data_string))
+        with open(prices_path, "r") as prices_file:
+            self.prices = json.load(prices_file)
+
+        print("dump: {}".format(json.dumps(self.prices)))
 
         
 
