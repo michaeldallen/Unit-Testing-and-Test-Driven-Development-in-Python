@@ -7,14 +7,11 @@ class Prices:
         self.prices = {}
 
         if not os.path.exists(prices_path):
-            raise Exception("bad path")
+            raise Exception("no such path: {}".format(prices_path))
 
         with open(prices_path, "r") as prices_file:
             self.prices = json.load(prices_file)
 
-        print("dump: {}".format(json.dumps(self.prices)))
-
-        
-
+        print("\ndump: {}".format(json.dumps(self.prices)))
 
     
