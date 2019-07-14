@@ -15,5 +15,5 @@ test : ${VENV}
 
 clean :
 	rm -rfv venv.${IAM}
-	find * -name '*~' | sort | while read t ; do rm -v "${t}" ; done
+	find * -name '*~' | sort | while read t ; do rm -v "$${t}" ; done
 
