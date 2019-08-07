@@ -36,7 +36,7 @@
 
 - [ ] Section 6. Test Doubles
     - [X] 20. Overview of Test Doubles, unittest.mock, and monkeypatch
-    - [ ] 21. unittest.mock Example
+    - [X] 21. unittest.mock Example
     - [ ] 22. Quiz 2: Test Doubles Quiz
     - [ ] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
 
