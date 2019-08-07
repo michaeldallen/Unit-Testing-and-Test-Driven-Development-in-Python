@@ -37,10 +37,10 @@
 - [ ] Section 6. Test Doubles
     - [X] 20. Overview of Test Doubles, unittest.mock, and monkeypatch
     - [X] 21. unittest.mock Example
-    - [ ] 22. Quiz 2: Test Doubles Quiz
-    - [ ] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
+    - [X] 22. Quiz 2: Test Doubles Quiz
+    - [X] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
 
-- [ ] Section 7. TDD Best Practices
+- [X] Section 7. TDD Best Practices
 
-- [ ] Section 8. Conculusion
+- [X] Section 8. Conculusion
 
