@@ -1,4 +1,4 @@
-# Unit Testing and Test Driven Development in Python
+`# Unit Testing and Test Driven Development in Python
 
 - [x] Section 1 Introduction
     - [x] 1. Introduction
@@ -36,11 +36,16 @@
 
 - [ ] Section 6. Test Doubles
     - [X] 20. Overview of Test Doubles, unittest.mock, and monkeypatch
-    - [ ] 21. unittest.mock Example
-    - [ ] 22. Quiz 2: Test Doubles Quiz
-    - [ ] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
+    - [X] 21. unittest.mock Example
+    - [X] 22. Quiz 2: Test Doubles Quiz
+    - [X] Assignment 3: Add Exception for Not Reading the Line to the Checkout Kata
 
-- [ ] Section 7. TDD Best Practices
+- [X] Section 7. TDD Best Practices
 
-- [ ] Section 8. Conculusion
+- [X] Section 8. Conculusion
+
+jenkins/git polling test
+and another ... Thu Aug  8 08:54:31 EDT 2019
+polling test ... Thu Aug  8 10:01:26 EDT 2019
+another polling test ... Thu Aug  8 12:38:20 EDT 2019
 
