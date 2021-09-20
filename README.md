@@ -1,4 +1,4 @@
-`# Unit Testing and Test Driven Development in Python
+# Unit Testing and Test Driven Development in Python
 
 - [x] Section 1 Introduction
     - [x] 1. Introduction
