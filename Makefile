@@ -2,6 +2,8 @@ IAM  := tdd
 VENV := venv.${IAM}/bin/activate
 ACT  := . ${VENV} &&
 
+default : test
+
 venv.${IAM} : ${VENV} requirements.txt
 	touch $@
 
